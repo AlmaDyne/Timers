@@ -1,0 +1,28 @@
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: calc(50% - 500px/2);
+    margin: auto;
+    vertical-align: middle;
+    height: 500px;
+    width: 500px;
+    background-color: #fbff00;
+    color:#315366;
+    font-size: 32pt;
+    cursor: pointer;
+}
+
+div > p {
+    margin: 0;
+}
